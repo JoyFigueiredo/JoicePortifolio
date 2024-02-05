@@ -11,7 +11,7 @@ export default function Home() {
       <title> Sobre Mim | Joice Figueiredo</title>
       <meta name="description" content="Sou uma desenvolvedora"></meta>
     </Head>
-    <div>
+    <div className="py-12 px-6 md:px-32 space-t-10">
         <AboutMe/>
     </div>
     </>
