@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Roboto } from "next/font/google"
+import { Menu } from "./Menu";
 
 const roboto = Roboto({
     subsets: ['latin'],
@@ -19,6 +20,8 @@ export const Header = () => {
             <Link href={"/contatos"}> Contato </Link>
 
         </nav>
+
+        <Menu/>
     </header>
     )
   }
