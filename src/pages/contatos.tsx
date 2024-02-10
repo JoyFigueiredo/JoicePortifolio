@@ -1,3 +1,4 @@
+import { CopyButton } from "@/components/commons/CopyButton";
 import Head from "next/head";
 
 const Contatos = () => {
@@ -13,19 +14,31 @@ const Contatos = () => {
                     <li className="md:text-xl">
                         <span className="font-bold">E-mail</span>
                         <div className=" flex gap-1 md:gap-3 items-center">
-                            <a href="mailto:joicebfigueiredo@gmail.com" className="text-sm md:text-lg text-slate-300 underline truncate"> joicebfigueiredo@gmail.com </a>
+                            <a
+                                href="mailto:joicebfigueiredo@gmail.com"
+                                className="text-sm md:text-lg text-slate-300 underline truncate"> joicebfigueiredo@gmail.com
+                            </a>
+                            <CopyButton textToCopy="joicebfigueiredo@gmail.com"/>
                         </div>
                     </li>
                     <li className="md:text-xl">
                         <span className="font-bold">Linkedin</span>
                         <div className=" flex gap-1 md:gap-3 items-center">
-                            <a href="mailto:joicebfigueiredo@gmail.com" className="text-sm md:text-lg text-slate-300 underline truncate"> joicebfigueiredo@gmail.com </a>
+                            <a
+                                href="mailto:joicebfigueiredo@gmail.com"
+                                className="text-sm md:text-lg text-slate-300 underline truncate"> joicebfigueiredo@gmail.com
+                            </a>
+                            <CopyButton textToCopy=""/>
                         </div>
                     </li>
                     <li className="md:text-xl">
                         <span className="font-bold">Github</span>
                         <div className=" flex gap-1 md:gap-3 items-center">
-                            <a href="mailto:joicebfigueiredo@gmail.com" className="text-sm md:text-lg text-slate-300 underline truncate"> joicebfigueiredo@gmail.com </a>
+                            <a
+                                href="mailto:joicebfigueiredo@gmail.com"
+                                className="text-sm md:text-lg text-slate-300 underline truncate"> joicebfigueiredo@gmail.com
+                            </a>
+                            <CopyButton textToCopy=""/>
                         </div>
                     </li>
                 </ul>
